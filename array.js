@@ -56,3 +56,17 @@ console.log(evenNumbers);
 const complexion = ["dark" , "fair" , "medium" , "dark" , "fair"];
 const darkComplexion = complexion.filter((item) => item === "dark");
 console.log(darkComplexion);
+
+const findFirstDark = complexion.find((item)  => item === "dark");
+console.log(findFirstDark);
+
+const findINdexOfDark = complexion.findIndex((item) => item === "dark");
+console.log(findINdexOfDark);
+
+//reduce
+const nums = [700 , 300 , 500 , 1000 , 2000];
+const sum = nums.reduce((accumulator, currentVlaue) => accumulator + currentVlaue, 0);
+console.log(sum);
+
+const multiply = nums.reduce((accumulator, currentValue) => accumulator + currentValue, 1);
+console.log(multiply);
