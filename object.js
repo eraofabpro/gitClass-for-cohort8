@@ -28,3 +28,15 @@ student.course = "Node.js";
 console.log(student);
 delete student.year;
 console.log(student);
+
+let employee = {
+    name: "Tunde Balogun",
+    role: "Frontend Developer",
+    salary: 450000,
+    city: "Lagos",
+};
+
+let hisName = employee.name;
+let hisRole = employee.role;
+
+const {name, role, salary, city} = employee;
