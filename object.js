@@ -40,3 +40,19 @@ let hisName = employee.name;
 let hisRole = employee.role;
 
 const {name, role, salary, city} = employee;
+
+let DNA = {
+    gender: "XY",
+    complexion: "Dark",
+}
+
+let offspring = {
+    ...DNA,
+    name: "PETER JIMOH",
+    age: 30,
+}
+console.log(offspring);
+
+console.log(Object.keys(offSpring));
+console.log(Object.values(offSpring));
+console.log(Object.entries(offSpring));
