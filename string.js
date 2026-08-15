@@ -26,3 +26,9 @@ console.log(extractExample.slice(-3,)); //"her"
 console.log(extractExample.substring(0, 3)); //"Est"
 console.log(extractExample.substring(3)); //"her"
 console.log(extractExample.substring(-3)); //"Peter" (negative index treated as 0)
+
+
+//replace and the replaceAll
+const stringText = "Ada is a fine girl , Ada is so smart and cute and Ada is a software developer"
+console.log(stringText.replace("Ada" , "She"));
+console.log(stringText.replaceAll("Ada", "She"));
