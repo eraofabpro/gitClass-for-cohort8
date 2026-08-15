@@ -32,3 +32,15 @@ console.log(extractExample.substring(-3)); //"Peter" (negative index treated as 
 const stringText = "Ada is a fine girl , Ada is so smart and cute and Ada is a software developer"
 console.log(stringText.replace("Ada" , "She"));
 console.log(stringText.replaceAll("Ada", "She"));
+let splittedText = stringText.split(",")
+console.log(splittedText[1].replaceAll("Ada" , "She"))
+
+//reverse
+let panlindrome = "madam"
+let reversed = panlindrome.split("").reversed().join("")
+console.log(reversed)
+
+function wordCheck(word){
+    return word === word.split("").reverse().join("") ? "Yes it is a panlindrome" : "No it is not a panlindrome"
+}
+console.log(wordCheck("Esther"));
